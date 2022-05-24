@@ -1,0 +1,30 @@
+.headline {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.sub-headline {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+#landingpage .contend {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+}
+#landingpage .contend .headline,
+#landingpage .contend .downloads {
+  grid-column: 1 / 3;
+}
+#landingpage .contend .downloads {
+  display: grid;
+  grid-template-columns: 1.7rem 1fr;
+  margin: 1rem 0;
+}
+#landingpage .contend .downloads .sub-headline {
+  font-size: 1.3rem;
+}
+#changelog .contend .changes {
+  display: grid;
+  grid-template-columns: 1.7rem 1fr;
+}
+
